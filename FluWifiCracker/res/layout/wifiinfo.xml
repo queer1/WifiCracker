@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="" android:id="@+id/str_i_ssid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="32dip" android:textColor="#DF7401"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="BSSID: " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/str_i_bbsid" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Security: " android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/str_i_sec" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Signal Power: " android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/str_i_pw" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Frecuency Channel: " android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/str_i_frec" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="KEY: " android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/str_i_crack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12dip"></TextView>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="@string/texto_boton_2" android:id="@+id/button2" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+    </TableRow>
+    
+</TableLayout>
+
+
+        
+
